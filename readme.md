@@ -26,6 +26,11 @@ minikube image load <imagename>
 # Deploy the yaml file:
 `kubectl apply -f hello.yaml`
 
+# Delete deployment
+`kubectl delete deployment hello-world-deployment`
+
+# See deployments
+
 # Get url from loadbalancer
 `minikube service hello-world-lb --url`
 
